@@ -1,9 +1,11 @@
-
+import React from "react";
+import { RoutesApp } from './Routes/RoutesApp'
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+    <RoutesApp/>
+    </>
   );
 }
 

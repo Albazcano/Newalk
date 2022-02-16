@@ -8,6 +8,7 @@ test('renders content', () =>{
     content: 'This is a test',
     important:true
   }
-  const component = render(<Home />)
-  console.log(component)
+  const component = render(<Home home={home} />)
+  component.getByText('This is a test')
+  component.getByText('make not important')
 })

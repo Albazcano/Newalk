@@ -1,11 +1,11 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { Home } from '../../../../../react/catalogo/src/Views/Home';
+import { Home } from '../views/Home/Home';
 import { Footer } from '../components/Footer/Footer';
 import { Header } from '../components/Header/Header'
 import { Details } from '../views/Details/Details';
-
-export const Routes = () => {
+import { Filter } from '../views/Filter/Filter'
+export function RoutesApp() {
   return (
    <HashRouter>
      <Header/>
