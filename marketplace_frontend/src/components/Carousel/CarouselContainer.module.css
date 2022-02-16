@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+.img_carousel{
+    display: block;
+    width: 40vw;
+    margin: auto;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
