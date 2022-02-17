@@ -11,6 +11,7 @@ export function RoutesApp() {
      <Header/>
      <Routes>
        <Route path='/' element={<Home/>}/>
+       <Route path='/home' element={<Home/>}/>
        <Route path='/filter' element={<Filter/>}/>
        <Route path='/details' element={<Details/>}/>
        <Route path='*' element={<Navigate replace to='/' />} />

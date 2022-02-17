@@ -4,6 +4,6 @@ import style from './Header.module.css';
 
 export const Header = () => {
   return (
-    <header><NavBar /></header>
+    <header className={style.header}><NavBar /></header>
   );
 }
