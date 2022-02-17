@@ -4,6 +4,9 @@
     width: 40vw;
     margin: auto;
 }
-h3{
+.h3{
     font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+    margin: 0;
+    padding: 1;
 }
