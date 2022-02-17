@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export const Home = () => {
   return (
-    <React.Fragment>
+    <>
       <div className={style.Home}>
         <div className={style.Hero}></div>
         <div className={style.Recommended}>
@@ -16,6 +16,6 @@ export const Home = () => {
           <Inspo />
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
