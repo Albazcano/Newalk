@@ -1,14 +1,22 @@
 import React, { useEffect, useState } from "react";
 import style from "./Filter.module.css";
-import { shoes } from "../../Data/prueba.js";
+//import { shoes } from "../../Data/prueba.js";
 import { CardProduct } from "../../components/Card/CardProduct";
 
 export const Filter = () => {
   const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    setProducts(shoes["VESICA PISCIS"]);
-  }, [products]);
+  const url = 'http://localhost:8881/brands'
+  /* */
+   const fetchProducts = async (url) => {
+     const res = await fetch(url)
+     const productsJSON = await res.json()
+     setProducts(productsJSON)
+   }
+ 
+   useEffect(() => {
+       fetchProducts(url)
+    
+   }, [products]);
 
   return (
     <div className={style.Filter}>
@@ -16,7 +24,7 @@ export const Filter = () => {
         <div key={item.id} className={style.card}>
           <CardProduct
             name={item.name}
-            image={item.link_imag}
+            image={item.imgUrl}
             features={item.features}
             description={item.description}
             price={item.price}
