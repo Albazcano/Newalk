@@ -1,0 +1,7 @@
+.img {
+  display: block;
+  margin: auto;
+  filter: drop-shadow(3px 5px 4px rgba(0, 0, 0, 0.4));
+  border-radius: 5px;
+  padding: 30px;
+}

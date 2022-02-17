@@ -6,8 +6,8 @@ import style from './CarouselContainer.module.css'
 export function CarouselContainer() {
   return (
     <div>
-  <Carousel variant="dark">
-  <Carousel.Item>
+  <Carousel className={style.Carousel} variant="dark">
+  <Carousel.Item className={style.item}>
     <Link to='/details'>
     <img
       className={style.img_carousel}
@@ -15,11 +15,11 @@ export function CarouselContainer() {
       alt="First slide"
     />
     </Link>
-    <Carousel.Caption>
+    <Carousel.Caption className={style.caption}>
       <h3 className={style.h3}>Zapatillas veganas Manimal Blackl</h3>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item className={style.item}>
   <Link to='/details'>
     <img
       className={style.img_carousel}
@@ -28,11 +28,11 @@ export function CarouselContainer() {
     />
   </Link>
   
-    <Carousel.Caption>
+    <Carousel.Caption className={style.caption}>
       <h3 className={style.h3}>Zapatos veganos de leopardo</h3>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item className={style.item}>
   <Link to='/details'>
     <img
       className={style.img_carousel}
@@ -41,7 +41,7 @@ export function CarouselContainer() {
 
     />
 </Link>
-    <Carousel.Caption>
+    <Carousel.Caption className={style.caption}>
       
       <h3 className={style.h3}>Zapatos veganos de color caramelo</h3>
     </Carousel.Caption>

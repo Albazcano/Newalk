@@ -1,0 +1,10 @@
+.img{
+    display: flex;
+    align-items: stretch;
+    width: 100vw;
+    padding: 1rem;
+    border-radius: 30px;
+}
+.h1{
+    margin: 1rem;
+}
