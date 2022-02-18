@@ -1,0 +1,20 @@
+.Hero {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.img {
+  height: 100vh;
+  margin-left: -300px;
+}
+.heroCard {
+  position: absolute;
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  margin-top: -500px;
+  margin-left: 1rem;
+  background: rgba(118, 118, 118, 0.5);
+  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
