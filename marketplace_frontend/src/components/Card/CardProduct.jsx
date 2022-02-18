@@ -25,7 +25,7 @@ export function CardProduct({
     <>
       <img src={image} alt="image product" />
       <p>{name}</p>
-      <span>{price}</span>
+      <span>$ {price}</span>
       <Link to="/details">
         <button onClick={infoProduct}>Detalles</button>
       </Link>

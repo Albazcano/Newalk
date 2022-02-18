@@ -5,7 +5,7 @@ import { CardProduct } from "../../components/Card/CardProduct";
 
 export const Filter = () => {
   const [products, setProducts] = useState([]);
-  const url = 'http://localhost:8881/brands'
+  const url = 'http://localhost:8888/brands'
   /* */
    const fetchProducts = async (url) => {
      const res = await fetch(url)
