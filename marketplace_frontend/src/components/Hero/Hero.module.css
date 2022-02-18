@@ -1,20 +1,39 @@
 .Hero {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
 }
-.img {
+.imgFondo {
   height: 100vh;
   margin-left: -300px;
 }
 .heroCard {
   position: absolute;
   z-index: 1;
-  width: 300px;
-  height: 300px;
-  margin-top: -500px;
+  width: 250px;
+  height: 80vh;
+  margin-top: -100vh;
   margin-left: 1rem;
   background: rgba(118, 118, 118, 0.5);
-  box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 10px 7px rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(4px);
+}
+.imgLogo {
+  position: absolute;
+  z-index: 2;
+  margin-top: -80vh;
+  width: 110vw;
+  mix-blend-mode: overlay;
+}
+.Hero p {
+  position: absolute;
+  z-index: 3;
+  margin-top: -60vh;
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
