@@ -4,7 +4,7 @@
   padding: 1rem;
   background-position: 10rem;
   background-blend-mode: color-dodge;
-  background-image: url(../../Assets/img/Fondo.png);
+  background-image: url(../../assets/img/Fondo.png);
 }
 .img_carousel {
   display: block;

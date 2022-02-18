@@ -1,0 +1,9 @@
+.containerImage {
+  height: 100%;
+  margin: 0 25px;
+}
+.links {
+  color: rgba(0,0,0,.55);
+  text-decoration: none;
+  margin: auto;
+}
