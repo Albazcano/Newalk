@@ -23,6 +23,7 @@
   z-index: 2;
   margin-top: -80vh;
   width: 110vw;
+  margin-left: -50px;
   mix-blend-mode: overlay;
 }
 .Hero p {
@@ -36,4 +37,34 @@
   color: #ffffff;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (min-width: 700px) {
+  .Hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgFondo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .heroCard {
+    width: 1000px;
+    height: 50vh;
+    margin-top: 5rem;
+    margin-left: 0rem;
+  }
+  .imgLogo {
+    margin-top: -10vh;
+    width: 80vw;
+  }
+  .Hero p{
+    width: 50vw;
+    margin-top: 40vh;
+    font-size: 30px;
+  }
 }
