@@ -21,7 +21,7 @@ export const Filter = () => {
   return (
     <div className={style.Filter}>
       {products.map((item) => (
-        <div key={item.id} className={style.card}>
+        <>
           <CardProduct
             name={item.name}
             image={item.imgUrl}
@@ -29,8 +29,9 @@ export const Filter = () => {
             description={item.description}
             price={item.price}
             sixe={item.size}
+            key={item.id} 
           />
-        </div>
+        </>
       ))}
     </div>
   );

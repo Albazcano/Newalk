@@ -4,16 +4,3 @@
   align-items: center;
   justify-content: center;
 }
-.card {
-  width: 160px;
-  height: 300px;
-  margin: 0.5rem;
-}
-.card img {
-  width: 100%;
-  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.4));
-  border-radius: 5px;
-}
-.card p{
-  font-weight: bold;
-}

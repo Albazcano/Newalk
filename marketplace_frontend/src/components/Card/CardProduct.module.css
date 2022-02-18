@@ -1,0 +1,21 @@
+.Card {
+  width: 160px;
+  height: 320px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.img {
+  width: 100%;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.4));
+  border-radius: 5px;
+}
+.title {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.button {
+  background-color: transparent;
+  color: black;
+}
